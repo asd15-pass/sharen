@@ -1,3 +1,72 @@
-// Place all the styles related to the memos controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  display: flex;
+}
+.side_bar {
+  background-color: #30c9f0;
+  width: 300px;
+  height: 100vh;
+}
+.side-bar-header {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  font-size: 16px;
+  color: #050505;
+  text-decoration: none;
+}
+.log_out a{
+  font-size: 16px;
+  color: rgb(236, 244, 247);
+  text-decoration: none;
+  border: 2px solid lightblue;
+  padding: 7px;
+}
+.memo_lists {
+  background-color: #0b5c9b;
+  height: calc(100vh - 50px);
+  padding: 0 10px;
+  overflow: scroll;
+}
+.memo_list {
+  padding: 10px 0 10px;
+}
+
+.memo-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.memo-header {
+  height: 100px;
+  background-color: #79797c;
+  padding: 0 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.create-memo {
+  font-size: 10px;
+  display: flex;
+  }
+  
+.create-memo a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+.memo {
+  background-color: #fcf8f8;
+  width: calc(100vw - 300px);
+  height: calc(100vh - 100px - 90px);
+}
+
+.form {
+  background-color: #807d7d;
+  height: 90px;
+  padding: 20px 40px;
+}
