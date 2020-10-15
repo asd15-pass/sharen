@@ -1,9 +1,9 @@
 <div class="side-bar-header">
   <div class="user-name">
-      <a href="#">Tom</a>
+      <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="log_out">
-      <a href="#">ログアウト</a>
+      <%= link_to "log_out", destroy_user_session_path, method: :delete, class: 'btn'%>
   </div>
 </div>
 
